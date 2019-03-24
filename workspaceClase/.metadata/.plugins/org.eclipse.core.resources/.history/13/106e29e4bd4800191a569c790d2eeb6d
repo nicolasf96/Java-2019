@@ -1,0 +1,16 @@
+package tarea1;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		
+		for(int i=1;i==10;i++){
+			int n;
+			n= i;
+			System.out.println(n);
+		}
+
+	}
+
+}
