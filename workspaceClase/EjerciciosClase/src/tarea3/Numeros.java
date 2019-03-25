@@ -1,5 +1,6 @@
 package tarea3;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Numeros {
@@ -14,15 +15,15 @@ public class Numeros {
 		System.out.println("Ingrese 10 numeros");
 		for(int i=0;i<10;i++){
 			int test = sc.nextInt();
+			if(test== 0){break;};
 			if(test>num1){
 				numeros[i] = test;				
 			}
 		
 			}
-		
-	for(int u=0;u < numeros.length;u++){
-			
-			System.out.println(numeros[u]);
+		Arrays.sort(numeros);
+	for(int numero:numeros){
+			System.out.println(numeros[numero]);
 		}
 		
 		
