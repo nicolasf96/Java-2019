@@ -1,3 +1,9 @@
+
+/* leer 1 num, luego leer 10 mas, almacenar solo los mayores al inicial
+y mostrarlos al final y sin nulls
+almacenarlos en orden y sin espacios intermedios
+*/
+
 package tarea3;
 
 import java.util.Arrays;
