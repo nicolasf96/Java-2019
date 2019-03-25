@@ -24,13 +24,13 @@ System.out.println("\nEsto muestra los numeros impares del 1 al 10");
 		}
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("\nCuantos años tenes?");
+		System.out.println("\nCuantos aÃ±os tenes?");
 		int edad;
 		edad = sc.nextInt();
 		
 		System.out.println("\nEdad: "+edad);
 		
-		System.out.println("Hola gino");
+		System.out.println("Hola Nico");
 
 		sc.close();
 	}
