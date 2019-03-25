@@ -29,6 +29,8 @@ System.out.println("\nEsto muestra los numeros impares del 1 al 10");
 		edad = sc.nextInt();
 		
 		System.out.println("\nEdad: "+edad);
+		
+		System.out.println("Hola gino");
 
 		sc.close();
 	}

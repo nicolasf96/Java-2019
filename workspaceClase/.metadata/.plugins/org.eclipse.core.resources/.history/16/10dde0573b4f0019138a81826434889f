@@ -22,7 +22,15 @@ System.out.println("\nEsto muestra los numeros impares del 1 al 10");
 			System.out.print(n);
 			
 		}
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("\nCuantos años tenes?");
+		int edad;
+		edad = sc.nextInt();
+		
+		System.out.println("\nEdad: "+edad);
 
+		sc.close();
 	}
 
 }
