@@ -17,19 +17,25 @@ public class Numeros {
 		int[] numeros = new int[10];
 		System.out.println("Ingrese un numero de referencia");
 		int num1;
+		int espacioEnArray = 0;
 		num1 = sc.nextInt();
+	
 		System.out.println("Ingrese 10 numeros");
+		
 		for(int i=0;i<10;i++){
 			int test = sc.nextInt();
-			if(test== 0){break;};
-			if(test>num1){
-				numeros[i] = test;				
+			if(num1<test){
+				numeros[espacioEnArray] = test;	
+				espacioEnArray++;
 			}
 		
 			}
 		Arrays.sort(numeros);
-	for(int numero:numeros){
-			System.out.println(numeros[numero]);
+		for(int i=0;i<numeros.length;i++){
+			
+			if(numeros[i] != 0){
+			System.out.println(numeros[i]);
+			}
 		}
 		
 		
